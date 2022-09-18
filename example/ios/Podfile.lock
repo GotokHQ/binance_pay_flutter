@@ -1,0 +1,33 @@
+PODS:
+  - binance_pay (0.0.1):
+    - BinancePaySDK (~> 0.0.1)
+    - Flutter
+  - BinancePaySDK (0.0.1)
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - binance_pay (from `.symlinks/plugins/binance_pay/ios`)
+  - BinancePaySDK (from `https://github.com/GotokHQ/BinancePaySDKIOS.git`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  binance_pay:
+    :path: ".symlinks/plugins/binance_pay/ios"
+  BinancePaySDK:
+    :git: https://github.com/GotokHQ/BinancePaySDKIOS.git
+  Flutter:
+    :path: Flutter
+
+CHECKOUT OPTIONS:
+  BinancePaySDK:
+    :commit: 7c1e38b16a84642774bc6997dbfdaac3e663cac6
+    :git: https://github.com/GotokHQ/BinancePaySDKIOS.git
+
+SPEC CHECKSUMS:
+  binance_pay: 8e4ddf95890c3f69989221108d88900bce212c47
+  BinancePaySDK: 35a8b8c9800b99a7a3389ae839fe8b4fd44f6f3c
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+
+PODFILE CHECKSUM: 7b748f60f02f36e8bcacf1b419773943397fd6be
+
+COCOAPODS: 1.11.2
